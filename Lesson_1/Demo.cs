@@ -11,6 +11,7 @@ public class Demo : MonoBehaviour
     private float fav=3.1f;//private ya da diger degiskenler sadece script uzerinden degisebilir.
     bool dogruMu = true;
     bool yanlisMi = 0;
+    public bool tick;//unity hub'da tick secenegi gelir isaret atarak true isareti kaldırarak false degeri atanabilinir.
     
     
     void Start(){//basladıgında
