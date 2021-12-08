@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Demo : MonoBehaviour
 {
-    void OnEnable(){
+    void OnEnable(){//aktif oldugunda calisir
         Debug.Log("I'm enabled.");
     }
-    void OnDisable(){
+    void OnDisable(){//deaktif oldugunda calisir
         Debug.Log("I'm disabled.");
     }
 }
