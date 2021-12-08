@@ -6,7 +6,8 @@ public class Demo : MonoBehaviour
 {
     //Degisken tanimlama
     public string ad="Emre";//public olanlar unity hub'dan degisilebilinir.
-    public int yas=19;
+    public int yas=19;//-2milyar... - 2milyar...
+    uint positive=48;//sadece pozitif sayıları tutan degisken 0 - 4milyar...
     private float fav=3.1f;//private ya da diger degiskenler sadece script uzerinden degisebilir.
     bool dogruMu = true;
     bool yanlisMi = 0;
