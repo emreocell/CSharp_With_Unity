@@ -57,6 +57,7 @@ public class Structs : MonoBehaviour
             wizard.Strenght+=wand.Power;
             wizard.Speed-=wand.Weight;
         }
+        else;
         
         fighterAvarage=(fighter.Strenght+fighter.Ability+fighter.Ability+fighter.Charisma+fighter.Luck)/5;
         archerAvarage=(archer.Strenght+archer.Ability+archer.Speed+archer.Charisma+archer.Luck)/5;
