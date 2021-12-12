@@ -10,7 +10,7 @@ public class Condition : MonoBehaviour
 
 
         for(int i=0;i<numbers.Length;i++){//for dongusu ornek
-            numberText=(numbers[i]%2==0) ? "even" : "odd";//if kullanmadan degisken degistirme
+            numberText=(numbers[i]%2==0) ? "even" : "odd";//if kullanmadan degisken degistirme . Icerideki ifade true donduruse even false dondururse odd olarak tanimla
             Debug.Log(numbers[i]+" is "+numberText);
         }
     }
