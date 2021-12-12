@@ -8,7 +8,7 @@ public class EunumAndFor : MonoBehaviour
         PlayerOne,PlayerTwo,PlayerNoneSelected
     }
     public Player player;
-    public int[] score;
+    public int[] scores;
     private int avarage=0;
     void Start() {
         for(int i=0;i<10;i++){
@@ -18,14 +18,17 @@ public class EunumAndFor : MonoBehaviour
             Debug.Log("Again Hello World!");
         }
 
-        /*for(int j=0;j<10;j--){//sinirsiz dongu
+        /*for(int j=0;j<10;j--){//sonsuz dongu
             Debug.Log("Infinity");
         }
         //Code will never reach here */  
-        for(int i=0;i<score.Length;i++){
-            avarage+=score[i];
+        /*for(int i=0;i<scores.Length;i++){//Same 
+            avarage+=scores[i];
         }
-        Debug.Log("Avarage is "+avarage/score.Length);
+        foreach(int score in scores){//Same
+            avarage+=score;
+        }
+        Debug.Log("Avarage is "+avarage/scores.Length);*/
     }
     
     void OnDisable(){
